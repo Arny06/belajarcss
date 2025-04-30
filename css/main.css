@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
 
 #header{
 
@@ -36,4 +36,36 @@ margin: 0 auto;
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
+}
+
+#content {
+    width: 800px;
+    margin: 0 auto;
+    background: #f2f2f2;
+}
+#artikel {
+   background: #07c7fc;
+   padding: 30px;
+   font-size: 18px;
+   width: 500px;
+   float: left;
+}
+#sidebar {
+    background: #07f3f3;
+    width: 300px;
+    padding: 30px;
+    float:right;
+}
+.clear {
+    clear: both;
+
+}
+#footer {
+    width: 800px;
+    background: rgb(173, 123, 100);
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    
 }
